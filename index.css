@@ -19,7 +19,7 @@ h2 {
 
 button {
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
     padding-top: 5px;
     padding-bottom: 5px;
     width: 200px;
@@ -28,9 +28,9 @@ button {
 }
 
 #increment-btn {
-    background: rgb(168, 74, 74);
+    background: rgb(139, 0, 0)
 }
 
 #increment-btn:active {
-    background-color: darkred;
+    background-color: rgb(168, 74, 74);
 }
