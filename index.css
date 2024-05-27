@@ -34,3 +34,11 @@ button {
 #increment-btn:active {
     background-color: rgb(168, 74, 74);
 }
+
+#save-btn {
+    background: rgb(0, 100, 0);
+}
+
+#save-btn:active {
+    background-color: rgb(8, 124, 85);
+}
