@@ -17,4 +17,20 @@ h2 {
     margin-bottom: 20px;
 }
 
+button {
+    font-weight: bold;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
 
+#increment-btn {
+    background: rgb(168, 74, 74);
+}
+
+#increment-btn:active {
+    background-color: darkred;
+}
