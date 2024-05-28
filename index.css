@@ -1,10 +1,20 @@
 body {
-    background-image: url("station.jpg");
+    background-image: url("https://t4.ftcdn.net/jpg/01/90/47/95/360_F_190479583_4MceLszZ13jNEIHiD9iySCE2X4h9WpvR.jpg");
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    height: 100vh;
 }
+
+.container {
+    background: transparent;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
 
 h1 {
     margin-top: 10px;
@@ -24,21 +34,22 @@ button {
     padding-bottom: 5px;
     width: 200px;
     border-radius: 10px;
+    margin-bottom: 5px;
     border: none;
 }
 
 #increment-btn {
-    background: rgb(139, 0, 0)
+    background: rgb(42, 136, 70)
 }
 
 #increment-btn:active {
-    background-color: rgb(168, 74, 74);
+    background-color: rgb(26, 90, 53);
 }
 
 #save-btn {
-    background: rgb(0, 100, 0);
+    background: rgb(85, 89, 95);
 }
 
 #save-btn:active {
-    background-color: rgb(8, 124, 85);
+    background-color: rgb(113, 121, 129);
 }
